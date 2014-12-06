@@ -1,0 +1,166 @@
+LSI result for n_topics= 5
+topic 0 : 0.154*"food" + 0.146*"place" + 0.143*"good" + 0.130*"great" + 0.119*"time" + 0.118*"room" + 0.117*"get" + 0.115*"go" + 0.115*"servic" + 0.112*"like"
+topic 1 : 0.398*"room" + 0.278*"hotel" + 0.255*"stay" + -0.161*"burger" + -0.153*"order" + -0.148*"fri" + 0.121*"pool" + -0.118*"food" + 0.115*"casino" + -0.109*"chees"
+topic 2 : -0.597*"buffet" + 0.577*"burger" + 0.204*"fri" + 0.135*"room" + -0.125*"crab" + -0.111*"sushi" + -0.098*"leg" + -0.091*"food" + -0.084*"dessert" + -0.078*"wynn"
+topic 3 : 0.568*"show" + 0.303*"cirqu" + -0.276*"room" + -0.170*"hotel" + -0.161*"buffet" + -0.155*"stay" + 0.131*"see" + 0.130*"soleil" + 0.121*"du" + 0.114*"perform"
+topic 4 : -0.741*"sandwich" + -0.336*"earl" + 0.312*"burger" + 0.203*"buffet" + -0.120*"club" + -0.112*"montagu" + 0.100*"show" + -0.096*"pizza" + -0.090*"bread" + 0.086*"fri"
+Building lda models...
+LDA - with tfidf - result for n_topics= 5
+topic 0 : 0.004*sink + 0.004*gelato + 0.004*swim + 0.004*sand + 0.003*fridg + 0.003*yard + 0.003*pillow + 0.003*u + 0.003*spin + 0.002*sheet
+topic 1 : 0.007*chees + 0.007*salad + 0.006*fri + 0.006*sauc + 0.005*flavor + 0.005*chicken + 0.005*dessert + 0.004*chocol + 0.004*potato + 0.004*roll
+topic 2 : 0.008*buffet + 0.007*food + 0.005*good + 0.005*sushi + 0.004*place + 0.004*servic + 0.004*great + 0.004*tri + 0.004*eat + 0.004*go
+topic 3 : 0.007*room + 0.006*hotel + 0.006*club + 0.005*pool + 0.005*stay + 0.004*xs + 0.004*get + 0.004*vega + 0.004*night + 0.003*danc
+topic 4 : 0.004*sick + 0.003*gym + 0.003*chic + 0.003*mission + 0.003*myster + 0.003*terrac + 0.003*remov + 0.003*plush + 0.003*lock + 0.002*massag
+LDA - without tfidf - result for n_topics= 5
+topic 0 : 0.030*place + 0.019*great + 0.014*go + 0.014*good + 0.012*time + 0.011*vega + 0.011*food + 0.011*love + 0.011*servic + 0.009*back
+topic 1 : 0.025*food + 0.019*buffet + 0.015*good + 0.011*sushi + 0.010*burger + 0.009*order + 0.009*eat + 0.008*like + 0.007*one + 0.007*tri
+topic 2 : 0.017*get + 0.014*us + 0.010*line + 0.009*time + 0.009*wait + 0.009*tabl + 0.008*got + 0.008*servic + 0.007*one + 0.007*peopl
+topic 3 : 0.013*fri + 0.013*good + 0.013*chees + 0.011*order + 0.010*like + 0.010*flavor + 0.010*salad + 0.010*sauc + 0.009*chicken + 0.008*delici
+topic 4 : 0.025*room + 0.021*hotel + 0.017*stay + 0.013*vega + 0.012*pool + 0.010*like + 0.010*club + 0.009*nice + 0.008*strip + 0.007*show
+LSI result for n_topics= 10
+topic 0 : 0.156*"food" + 0.146*"place" + 0.143*"good" + 0.130*"great" + 0.119*"time" + 0.119*"room" + 0.117*"get" + 0.117*"servic" + 0.114*"go" + 0.111*"like"
+topic 1 : 0.417*"room" + 0.265*"hotel" + 0.245*"stay" + -0.162*"burger" + -0.154*"order" + -0.145*"fri" + -0.133*"food" + 0.118*"pool" + 0.112*"casino" + -0.110*"good"
+topic 2 : 0.369*"buffet" + -0.365*"room" + -0.331*"burger" + -0.221*"fri" + -0.164*"hotel" + -0.146*"stay" + 0.146*"food" + 0.136*"wait" + 0.121*"line" + -0.119*"chees"
+topic 3 : -0.651*"buffet" + -0.166*"hotel" + -0.155*"stay" + 0.148*"show" + -0.140*"crab" + 0.127*"burger" + 0.126*"us" + -0.123*"room" + 0.117*"wait" + 0.115*"seat"
+topic 4 : 0.776*"burger" + 0.230*"buffet" + 0.181*"show" + 0.161*"fri" + -0.127*"room" + -0.111*"steak" + 0.088*"shake" + 0.087*"vega" + -0.086*"order" + -0.082*"dish"
+topic 5 : 0.662*"show" + 0.297*"cirqu" + -0.207*"burger" + 0.138*"see" + -0.129*"servic" + -0.124*"wait" + 0.124*"soleil" + 0.123*"perform" + -0.119*"food" + 0.116*"du"
+topic 6 : -0.270*"buffet" + -0.233*"room" + -0.213*"line" + 0.198*"place" + 0.185*"hotel" + 0.183*"great" + 0.178*"stay" + -0.171*"wait" + 0.168*"food" + -0.151*"crab"
+topic 7 : -0.656*"sandwich" + -0.282*"earl" + -0.189*"pizza" + -0.184*"club" + 0.149*"steak" + 0.129*"sushi" + -0.119*"line" + 0.116*"servic" + 0.104*"food" + -0.099*"airport"
+topic 8 : 0.464*"pizza" + -0.441*"sandwich" + 0.263*"airport" + -0.219*"earl" + 0.218*"ramen" + 0.197*"chocol" + -0.189*"steak" + 0.118*"slice" + 0.096*"termin" + 0.087*"hot"
+topic 9 : -0.597*"pho" + -0.341*"sushi" + -0.244*"roll" + 0.243*"pizza" + -0.229*"thai" + -0.190*"ramen" + -0.172*"noodl" + 0.134*"steak" + -0.116*"rice" + -0.114*"broth"
+Building lda models...
+LDA - with tfidf - result for n_topics= 10
+topic 0 : 0.035*xs + 0.018*seafood + 0.009*nightclub + 0.009*marrow + 0.009*truffl + 0.008*luxuri + 0.008*chip + 0.007*lobster + 0.007*bone + 0.006*butter
+topic 1 : 0.006*room + 0.005*hotel + 0.005*get + 0.005*club + 0.005*vega + 0.005*place + 0.004*servic + 0.004*time + 0.004*stay + 0.004*pool
+topic 2 : 0.012*xs + 0.008*promot + 0.008*ti + 0.007*rio + 0.007*sprout + 0.007*brussel + 0.006*fox + 0.006*tempura + 0.005*mile + 0.005*credit
+topic 3 : 0.029*wick + 0.020*gelato + 0.020*spoon + 0.008*cake + 0.007*corn + 0.007*buffet + 0.006*brunch + 0.005*pot + 0.004*multipl + 0.004*mochi
+topic 4 : 0.015*spa + 0.011*pro + 0.009*sofa + 0.007*airway + 0.006*kalbi + 0.005*mouss + 0.005*north + 0.004*ceil + 0.004*ham + 0.004*batter
+topic 5 : 0.012*buffet + 0.009*sushi + 0.008*wynn + 0.006*good + 0.006*dessert + 0.006*salad + 0.006*fri + 0.006*food + 0.005*order + 0.005*roll
+topic 6 : 0.013*suit + 0.010*tryst + 0.009*vdara + 0.008*resort + 0.007*buffet + 0.007*outdoor + 0.007*shop + 0.006*brunch + 0.006*tower + 0.006*modern
+topic 7 : 0.019*zarkana + 0.013*fountain + 0.010*con + 0.006*sheet + 0.006*greasi + 0.006*mojito + 0.006*bell + 0.006*english + 0.005*fatti + 0.004*monkey
+topic 8 : 0.016*bathroom + 0.010*bed + 0.010*shower + 0.008*cirqu + 0.007*trump + 0.006*separ + 0.006*wet + 0.005*connect + 0.004*room + 0.004*tv
+topic 9 : 0.015*tub + 0.012*king + 0.012*screen + 0.009*amen + 0.008*cooki + 0.007*midnight + 0.006*shell + 0.006*send + 0.006*basket + 0.006*jacuzzi
+LDA - without tfidf - result for n_topics= 10
+topic 0 : 0.047*room + 0.035*hotel + 0.031*stay + 0.012*pool + 0.011*xs + 0.010*bed + 0.009*suit + 0.009*get + 0.009*vega + 0.008*one
+topic 1 : 0.026*club + 0.017*get + 0.016*like + 0.015*show + 0.014*vega + 0.013*danc + 0.012*go + 0.010*peopl + 0.009*music + 0.009*dont
+topic 2 : 0.017*good + 0.017*order + 0.013*fri + 0.013*salad + 0.012*chees + 0.012*burger + 0.011*like + 0.011*dish + 0.009*chicken + 0.009*tast
+topic 3 : 0.017*nice + 0.015*great + 0.015*area + 0.015*place + 0.011*like + 0.010*walk + 0.010*love + 0.010*beauti + 0.010*view + 0.009*strip
+topic 4 : 0.081*buffet + 0.033*wynn + 0.021*crab + 0.021*price + 0.015*wick + 0.014*spoon + 0.012*worth + 0.012*food + 0.012*leg + 0.012*select
+topic 5 : 0.039*beer + 0.023*drink + 0.023*wine + 0.017*bottl + 0.017*coffe + 0.014*glass + 0.012*select + 0.010*water + 0.008*cocktail + 0.008*also
+topic 6 : 0.025*food + 0.024*place + 0.018*good + 0.017*great + 0.015*go + 0.013*time + 0.012*vega + 0.012*servic + 0.011*tri + 0.010*back
+topic 7 : 0.023*us + 0.016*wait + 0.014*get + 0.014*tabl + 0.013*servic + 0.011*time + 0.010*drink + 0.010*line + 0.010*got + 0.010*minut
+topic 8 : 0.037*gelato + 0.026*tub + 0.017*taco + 0.014*yellowtail + 0.011*chip + 0.010*drink + 0.008*tea + 0.008*spice + 0.006*mexican + 0.006*de
+topic 9 : 0.049*dessert + 0.029*chocol + 0.026*pizza + 0.023*cream + 0.021*ice + 0.016*cake + 0.015*strawberri + 0.012*sweet + 0.011*bone + 0.009*marrow
+LSI result for n_topics= 15
+topic 0 : 0.156*"food" + 0.146*"place" + 0.143*"good" + 0.130*"great" + 0.119*"time" + 0.118*"room" + 0.117*"servic" + 0.117*"get" + 0.115*"go" + 0.111*"like"
+topic 1 : 0.414*"room" + 0.267*"hotel" + 0.245*"stay" + -0.157*"burger" + -0.155*"order" + -0.145*"fri" + -0.134*"food" + 0.119*"pool" + -0.112*"good" + 0.112*"casino"
+topic 2 : 0.402*"room" + 0.260*"burger" + 0.204*"fri" + -0.204*"buffet" + 0.180*"hotel" + -0.167*"wait" + 0.164*"stay" + -0.148*"food" + -0.125*"line" + 0.121*"chees"
+topic 3 : -0.663*"buffet" + 0.178*"burger" + 0.166*"order" + 0.160*"us" + -0.132*"food" + -0.124*"vega" + 0.121*"tabl" + -0.120*"hotel" + 0.120*"wait" + -0.117*"crab"
+topic 4 : 0.688*"burger" + -0.181*"room" + 0.150*"fri" + -0.145*"order" + 0.143*"show" + -0.134*"us" + 0.129*"place" + 0.125*"vega" + -0.118*"dessert" + 0.090*"great"
+topic 5 : -0.425*"buffet" + -0.340*"burger" + 0.235*"food" + 0.229*"great" + -0.226*"line" + 0.214*"servic" + -0.171*"wait" + 0.158*"place" + 0.133*"restaur" + -0.117*"fri"
+topic 6 : 0.608*"show" + -0.261*"burger" + 0.250*"cirqu" + -0.188*"servic" + -0.175*"food" + 0.136*"see" + -0.121*"room" + 0.113*"perform" + -0.110*"buffet" + -0.109*"wait"
+topic 7 : -0.356*"show" + 0.278*"club" + -0.240*"room" + -0.234*"servic" + 0.226*"pizza" + -0.197*"food" + -0.191*"cirqu" + 0.179*"sandwich" + 0.146*"pool" + 0.141*"danc"
+topic 8 : -0.413*"pizza" + 0.403*"steak" + -0.258*"chocol" + -0.205*"room" + -0.193*"dessert" + 0.159*"hotel" + 0.149*"stay" + -0.117*"crepe" + -0.116*"beer" + -0.109*"coffe"
+topic 9 : 0.367*"sushi" + -0.313*"steak" + 0.204*"roll" + -0.203*"chocol" + -0.189*"dessert" + 0.188*"taco" + -0.148*"wine" + -0.145*"pizza" + 0.140*"rice" + 0.138*"chicken"
+topic 10 : 0.507*"sandwich" + -0.277*"sushi" + 0.211*"earl" + -0.171*"pizza" + 0.160*"chocol" + -0.160*"danc" + 0.154*"breakfast" + -0.140*"crab" + -0.139*"pool" + -0.131*"roll"
+topic 11 : -0.541*"sandwich" + 0.261*"chocol" + -0.249*"earl" + 0.179*"sushi" + -0.149*"room" + -0.145*"club" + 0.138*"hotel" + 0.120*"frozen" + 0.120*"stay" + 0.118*"dessert"
+topic 12 : -0.654*"sushi" + -0.265*"sandwich" + -0.239*"roll" + 0.210*"taco" + -0.203*"ayc" + 0.151*"food" + -0.139*"earl" + -0.133*"steak" + 0.109*"chicken" + 0.102*"noodl"
+topic 13 : -0.784*"airport" + -0.258*"termin" + -0.147*"slot" + -0.142*"flight" + -0.125*"machin" + -0.125*"secur" + -0.121*"gate" + -0.092*"fli" + -0.085*"mccarran" + -0.079*"pizza"
+topic 14 : -0.697*"pho" + -0.283*"ramen" + -0.236*"thai" + 0.218*"taco" + -0.165*"noodl" + -0.147*"pizza" + -0.142*"broth" + 0.095*"chicken" + 0.094*"fri" + -0.092*"steak"
+Building lda models...
+LDA - with tfidf - result for n_topics= 15
+topic 0 : 0.014*spa + 0.012*secur + 0.011*wet + 0.008*gym + 0.008*bay + 0.008*hallway + 0.008*shoe + 0.007*republ + 0.007*nicest + 0.006*luck
+topic 1 : 0.012*shake + 0.011*bouncer + 0.009*pole + 0.007*vig + 0.006*mgm + 0.005*mirror + 0.004*pillow + 0.004*caus + 0.004*wifi + 0.004*sick
+topic 2 : 0.018*tower + 0.010*d + 0.009*spin + 0.008*walkway + 0.008*player + 0.008*pure + 0.007*entri + 0.006*p + 0.006*fatti + 0.005*float
+topic 3 : 0.060*sushi + 0.015*zarkana + 0.015*tv + 0.011*wolfgang + 0.010*corn + 0.009*puck + 0.009*pho + 0.008*separ + 0.008*scallop + 0.007*risotto
+topic 4 : 0.104*pool + 0.022*bone + 0.015*fountain + 0.007*cabana + 0.007*poolsid + 0.007*tv + 0.006*macaron + 0.006*highlight + 0.006*pirat + 0.006*slept
+topic 5 : 0.012*room + 0.007*wick + 0.007*bed + 0.007*seafood + 0.007*gelato + 0.006*suit + 0.006*hotel + 0.005*floor + 0.005*valet + 0.005*shop
+topic 6 : 0.009*salad + 0.008*fri + 0.008*chees + 0.007*dessert + 0.007*pizza + 0.007*good + 0.007*order + 0.006*burger + 0.006*flavor + 0.006*chicken
+topic 7 : 0.018*tao + 0.016*fee + 0.014*con + 0.013*amen + 0.012*flight + 0.012*beach + 0.008*checkout + 0.007*$40 + 0.007*sheet + 0.006*airlin
+topic 8 : 0.024*brunch + 0.014*wick + 0.011*italian + 0.011*mirag + 0.008*kale + 0.006*hype + 0.006*steam + 0.006*$35 + 0.006*11 + 0.006*bottom
+topic 9 : 0.027*mall + 0.017*yonaka + 0.012*creme + 0.011*meatbal + 0.011*orang + 0.011*gnocchi + 0.007*tartar + 0.007*jack + 0.007*spice + 0.006*bottomless
+topic 10 : 0.013*yellowtail + 0.012*coffe + 0.011*complimentari + 0.010*mimosa + 0.008*sprout + 0.007*bun + 0.007*brussel + 0.006*bbq + 0.005*tender + 0.005*fruit
+topic 11 : 0.016*pool + 0.009*craftsteak + 0.009*belli + 0.008*swim + 0.008*shell + 0.008*bloodi + 0.008*mari + 0.007*sushi + 0.006*guestlist + 0.006*basket
+topic 12 : 0.065*xs + 0.045*crab + 0.020*spaciou + 0.020*shower + 0.018*nightclub + 0.015*luxuri + 0.014*modern + 0.009*rio + 0.009*indoor + 0.009*heel
+topic 13 : 0.006*buffet + 0.005*get + 0.005*place + 0.005*vega + 0.005*food + 0.005*club + 0.005*servic + 0.005*time + 0.005*great + 0.005*go
+topic 14 : 0.012*tempura + 0.011*tail + 0.010*holiday + 0.009*fight + 0.008*sent + 0.006*answer + 0.006*55 + 0.006*mash + 0.006*lay + 0.006*clientel
+LDA - without tfidf - result for n_topics= 15
+topic 0 : 0.031*like + 0.027*dont + 0.019*im + 0.018*know + 0.013*go + 0.012*get + 0.011*think + 0.011*say + 0.011*one + 0.009*ive
+topic 1 : 0.032*us + 0.014*servic + 0.013*ask + 0.011*time + 0.011*didnt + 0.010*get + 0.010*got + 0.010*would + 0.010*one + 0.009*check
+topic 2 : 0.042*star + 0.027*2 + 0.023*5 + 0.022*1 + 0.021*4 + 0.021*get + 0.021*3 + 0.015*pay + 0.013*give + 0.011*drink
+topic 3 : 0.049*club + 0.028*show + 0.026*danc + 0.022*music + 0.014*vega + 0.014*girl + 0.014*night + 0.012*floor + 0.012*crowd + 0.011*play
+topic 4 : 0.023*chees + 0.022*fri + 0.021*burger + 0.019*salad + 0.017*good + 0.016*order + 0.014*sauc + 0.014*flavor + 0.013*chicken + 0.010*bread
+topic 5 : 0.046*hotel + 0.042*stay + 0.029*vega + 0.018*casino + 0.018*strip + 0.016*xs + 0.013*room + 0.011*place + 0.011*time + 0.010*walk
+topic 6 : 0.024*get + 0.020*line + 0.018*place + 0.017*wait + 0.013*tabl + 0.012*peopl + 0.011*bar + 0.011*around + 0.011*seat + 0.011*night
+topic 7 : 0.054*drink + 0.042*crab + 0.038*bar + 0.035*beer + 0.023*leg + 0.021*wine + 0.020*cocktail + 0.018*glass + 0.016*bottl + 0.014*bartend
+topic 8 : 0.047*buffet + 0.027*food + 0.019*wynn + 0.018*good + 0.018*vega + 0.014*price + 0.012*like + 0.012*place + 0.012*better + 0.011*much
+topic 9 : 0.062*sushi + 0.045*roll + 0.017*dish + 0.016*fish + 0.015*shrimp + 0.014*good + 0.014*like + 0.014*order + 0.012*fresh + 0.012*rice
+topic 10 : 0.027*steak + 0.025*rib + 0.022*seafood + 0.017*meat + 0.014*prime + 0.013*cook + 0.013*lobster + 0.013*beef + 0.012*egg + 0.011*side
+topic 11 : 0.064*room + 0.023*pool + 0.020*nice + 0.017*view + 0.016*bed + 0.015*bathroom + 0.013*suit + 0.011*clean + 0.010*area + 0.010*hotel
+topic 12 : 0.066*dessert + 0.033*chocol + 0.026*cream + 0.024*ice + 0.022*gelato + 0.018*cake + 0.017*strawberri + 0.016*coffe + 0.012*sweet + 0.010*corn
+topic 13 : 0.018*bay + 0.016*new + 0.015*mandalay + 0.010*crystal + 0.010*sorbet + 0.010*york + 0.009*le + 0.009*thehotel + 0.008*pro + 0.007*parlor
+topic 14 : 0.029*food + 0.026*great + 0.025*place + 0.019*good + 0.018*servic + 0.015*time + 0.013*restaur + 0.012*love + 0.012*go + 0.012*tri
+LSI result for n_topics= 20
+topic 0 : 0.156*"food" + 0.146*"place" + 0.143*"good" + 0.130*"great" + 0.119*"time" + 0.118*"room" + 0.117*"servic" + 0.117*"get" + 0.115*"go" + 0.112*"like"
+topic 1 : 0.413*"room" + 0.266*"hotel" + 0.241*"stay" + -0.160*"order" + -0.155*"burger" + -0.145*"fri" + -0.139*"food" + 0.118*"pool" + -0.115*"good" + 0.111*"casino"
+topic 2 : 0.393*"room" + 0.241*"burger" + -0.237*"buffet" + 0.193*"fri" + 0.178*"hotel" + -0.175*"food" + -0.168*"wait" + 0.161*"stay" + -0.134*"servic" + 0.126*"chees"
+topic 3 : -0.632*"buffet" + 0.182*"us" + 0.175*"order" + -0.143*"food" + 0.140*"tabl" + 0.132*"wait" + -0.130*"vega" + -0.129*"hotel" + 0.128*"burger" + -0.122*"stay"
+topic 4 : 0.373*"burger" + -0.300*"buffet" + 0.272*"food" + 0.248*"great" + 0.240*"servic" + 0.180*"place" + -0.155*"line" + -0.154*"order" + -0.139*"us" + -0.128*"wait"
+topic 5 : 0.515*"burger" + -0.304*"servic" + 0.285*"show" + -0.251*"food" + -0.218*"room" + 0.149*"fri" + 0.148*"buffet" + 0.135*"club" + -0.126*"great" + 0.111*"cirqu"
+topic 6 : -0.522*"burger" + 0.363*"show" + -0.309*"buffet" + -0.159*"room" + -0.156*"wait" + 0.150*"cirqu" + -0.129*"us" + -0.123*"servic" + -0.123*"fri" + -0.103*"line"
+topic 7 : 0.570*"show" + 0.252*"cirqu" + -0.202*"club" + 0.199*"room" + 0.173*"servic" + -0.151*"place" + -0.145*"pizza" + -0.127*"sandwich" + 0.121*"buffet" + 0.121*"food"
+topic 8 : -0.254*"stay" + -0.238*"hotel" + -0.235*"steak" + 0.217*"danc" + 0.196*"pool" + 0.179*"club" + 0.161*"room" + 0.148*"floor" + 0.143*"music" + 0.141*"beer"
+topic 9 : 0.386*"pizza" + -0.376*"steak" + 0.300*"chocol" + -0.230*"club" + 0.230*"dessert" + -0.159*"danc" + -0.133*"rib" + 0.122*"crepe" + 0.116*"cream" + 0.116*"sandwich"
+topic 10 : -0.307*"steak" + 0.228*"taco" + 0.207*"sushi" + -0.202*"wine" + -0.192*"dessert" + 0.190*"food" + 0.167*"chicken" + 0.166*"sandwich" + -0.162*"chocol" + -0.161*"pizza"
+topic 11 : -0.579*"sandwich" + 0.381*"sushi" + -0.208*"earl" + 0.190*"roll" + -0.179*"pizza" + 0.149*"dessert" + -0.140*"steak" + 0.133*"chocol" + 0.124*"taco" + -0.117*"breakfast"
+topic 12 : 0.569*"pizza" + -0.284*"chocol" + 0.243*"beer" + -0.198*"dessert" + -0.197*"sandwich" + -0.178*"club" + -0.146*"earl" + 0.124*"sushi" + -0.114*"servic" + -0.113*"cream"
+topic 13 : -0.283*"hotel" + 0.267*"room" + 0.249*"taco" + -0.243*"fri" + -0.238*"pool" + -0.170*"casino" + -0.148*"servic" + 0.140*"sushi" + -0.125*"pizza" + 0.121*"sandwich"
+topic 14 : -0.462*"sandwich" + -0.449*"sushi" + -0.213*"earl" + -0.206*"roll" + 0.160*"thai" + 0.159*"breakfast" + 0.136*"ramen" + 0.124*"egg" + -0.123*"hotel" + -0.120*"ayc"
+topic 15 : 0.250*"airport" + 0.243*"crab" + -0.227*"beer" + 0.210*"pizza" + -0.196*"buffet" + -0.190*"fri" + 0.179*"leg" + 0.162*"line" + -0.144*"chicken" + 0.138*"rib"
+topic 16 : -0.681*"airport" + 0.221*"pizza" + -0.210*"termin" + 0.154*"club" + -0.135*"flight" + -0.133*"slot" + 0.127*"thai" + -0.124*"sushi" + 0.119*"stay" + -0.113*"machin"
+topic 17 : -0.598*"ramen" + -0.241*"noodl" + -0.218*"thai" + -0.218*"pho" + 0.196*"breakfast" + 0.170*"sushi" + -0.157*"broth" + 0.151*"taco" + -0.138*"monta" + -0.134*"sandwich"
+topic 18 : -0.324*"sushi" + -0.307*"ramen" + 0.305*"thai" + 0.229*"airport" + -0.224*"pho" + 0.212*"taco" + -0.201*"breakfast" + -0.200*"steak" + -0.163*"egg" + -0.129*"pancak"
+topic 19 : -0.796*"pho" + 0.355*"ramen" + 0.177*"taco" + -0.173*"thai" + -0.129*"roll" + -0.110*"airport" + -0.096*"vietnames" + -0.089*"kim" + 0.080*"monta" + -0.058*"club"
+Building lda models...
+LDA - with tfidf - result for n_topics= 20
+topic 0 : 0.029*pizza + 0.026*seafood + 0.020*roll + 0.015*lobster + 0.014*yama + 0.011*tuna + 0.010*yellowtail + 0.010*sashimi + 0.009*butter + 0.006*mushroom
+topic 1 : 0.056*crab + 0.028*leg + 0.025*ayc + 0.022*zarkana + 0.018*tower + 0.018*coffe + 0.012*buffet + 0.012*wet + 0.008*spin + 0.008*stood
+topic 2 : 0.045*gelato + 0.027*resort + 0.026*nightclub + 0.014*upscal + 0.009*nicest + 0.008*surrend + 0.008*concierg + 0.008*flower + 0.007*york + 0.007*bank
+topic 3 : 0.032*trump + 0.022*spa + 0.014*treasur + 0.012*effici + 0.011*checkout + 0.010*holiday + 0.008*tiramisu + 0.008*westin + 0.008*cloth + 0.007*remov
+topic 4 : 0.019*secur + 0.018*checkin + 0.017*lamb + 0.014*pot + 0.010*republ + 0.009*sushi + 0.009*juici + 0.008*pie + 0.008*mint + 0.006*organ
+topic 5 : 0.008*good + 0.008*dessert + 0.008*burger + 0.008*food + 0.007*order + 0.007*salad + 0.007*fri + 0.006*chees + 0.006*dish + 0.005*tast
+topic 6 : 0.110*sushi + 0.033*roll + 0.018*yonaka + 0.015*craftsteak + 0.011*sea + 0.010*carv + 0.010*duck + 0.009*sand + 0.008*confer + 0.007*meh
+topic 7 : 0.018*buffet + 0.011*wynn + 0.010*hotel + 0.008*stay + 0.007*vega + 0.006*room + 0.005*bed + 0.005*bellagio + 0.005*danc + 0.005*casino
+topic 8 : 0.010*brunch + 0.007*present + 0.007*shrimp + 0.005*mirag + 0.005*cook + 0.005*individu + 0.004*korean + 0.004*bacon + 0.004*zucchini + 0.004*desert
+topic 9 : 0.020*bouncer + 0.019*tub + 0.015*bathroom + 0.014*fountain + 0.011*key + 0.010*brussel + 0.008*resort + 0.008*bisqu + 0.007*player + 0.007*hair
+topic 10 : 0.008*stripper + 0.007*credit + 0.007*luck + 0.007*smoke + 0.006*refil + 0.006*airlin + 0.005*zin + 0.005*cheaper + 0.005*cuisin + 0.005*cigarett
+topic 11 : 0.019*amen + 0.015*gym + 0.013*bay + 0.011*tail + 0.010*paper + 0.009*mojito + 0.008*b + 0.008*facil + 0.007*float + 0.007*5pm
+topic 12 : 0.011*mimosa + 0.010*king + 0.009*rio + 0.009*bun + 0.009*haha + 0.009*heel + 0.009*eleg + 0.007*interior + 0.007*guestlist + 0.006*request
+topic 13 : 0.018*bathroom + 0.017*mall + 0.016*bone + 0.013*clown + 0.011*complimentari + 0.010*game + 0.009*everywher + 0.009*lobbi + 0.008*delux + 0.007*con
+topic 14 : 0.008*club + 0.006*room + 0.006*pool + 0.006*get + 0.005*servic + 0.005*xs + 0.005*place + 0.005*time + 0.005*us + 0.005*night
+topic 15 : 0.024*kobe + 0.012*cooki + 0.011*steve + 0.011*midnight + 0.010*sorbet + 0.010*wagyu + 0.009*curd + 0.008*spice + 0.008*pud + 0.007*gogo
+topic 16 : 0.019*wolfgang + 0.017*screen + 0.016*puck + 0.015*scallop + 0.011*filet + 0.011*kitchenett + 0.011*control + 0.010*risotto + 0.008*iron + 0.008*tom
+topic 17 : 0.017*creme + 0.014*pro + 0.012*chandeli + 0.010*ignor + 0.009*parlor + 0.008*juggl + 0.008*updat + 0.007*lastli + 0.007*divers + 0.006*pink
+topic 18 : 0.056*wick + 0.027*spoon + 0.019*luxuri + 0.016*mini + 0.015*chip + 0.010*avocado + 0.009*meatbal + 0.009*belli + 0.009*mochi + 0.007*salt
+topic 19 : 0.015*danc + 0.014*spaciou + 0.013*valet + 0.011*shake + 0.010*waterfal + 0.008*corn + 0.007*cosmopolitan + 0.007*classi + 0.006*indoor + 0.006*swim
+LDA - without tfidf - result for n_topics= 20
+topic 0 : 0.205*wynn + 0.034*arepa + 0.030*taco + 0.021*mandalay + 0.021*bay + 0.017*italian + 0.012*kitchenett + 0.011*mexican + 0.010*thehotel + 0.010*golf
+topic 1 : 0.058*seafood + 0.041*shop + 0.033*bar + 0.024*store + 0.018*waterfal + 0.014*bloodi + 0.014*marque + 0.013*mari + 0.013*island + 0.012*there
+topic 2 : 0.033*get + 0.024*club + 0.018*line + 0.016*peopl + 0.016*like + 0.012*go + 0.012*dont + 0.010*one + 0.009*girl + 0.009*guy
+topic 3 : 0.058*lobster + 0.044*tryst + 0.022*dress + 0.015*hot + 0.015*heel + 0.015*dog + 0.014*tail + 0.014*vig + 0.013*dj + 0.012*paper
+topic 4 : 0.037*secur + 0.031*air + 0.022*clown + 0.020*pole + 0.020*new + 0.012*spring + 0.012*photo + 0.011*stripper + 0.011*york + 0.010*babi
+topic 5 : 0.038*us + 0.017*wait + 0.016*time + 0.014*servic + 0.013*minut + 0.013*ask + 0.012*tabl + 0.011*order + 0.011*got + 0.011*came
+topic 6 : 0.053*dessert + 0.034*chocol + 0.028*ice + 0.027*cream + 0.017*strawberri + 0.016*sweet + 0.013*tea + 0.011*tast + 0.010*coffe + 0.010*flavor
+topic 7 : 0.034*like + 0.013*kid + 0.010*im + 0.010*old + 0.008*thing + 0.007*play + 0.007*look + 0.006*feel + 0.006*girl + 0.006*know
+topic 8 : 0.070*show + 0.054*danc + 0.024*music + 0.019*cirqu + 0.018*see + 0.011*beauti + 0.011*perform + 0.010*seen + 0.010*view + 0.010*tower
+topic 9 : 0.021*pay + 0.021*charg + 0.020*free + 0.015*price + 0.015*fee + 0.013*card + 0.013*resort + 0.012*per + 0.011*2 + 0.011*get
+topic 10 : 0.140*burger + 0.068*pizza + 0.044*fri + 0.027*truffl + 0.018*yama + 0.011*windsor + 0.009*caramel + 0.008*pan + 0.008*bake + 0.007*onion
+topic 11 : 0.033*great + 0.028*place + 0.019*servic + 0.016*love + 0.016*good + 0.012*nice + 0.011*restaur + 0.011*food + 0.011*bar + 0.010*night
+topic 12 : 0.018*good + 0.017*order + 0.015*salad + 0.013*chees + 0.011*dish + 0.010*chicken + 0.010*like + 0.010*fri + 0.010*sauc + 0.009*flavor
+topic 13 : 0.090*sushi + 0.061*roll + 0.047*crab + 0.034*wick + 0.032*spoon + 0.026*leg + 0.020*brunch + 0.020*shrimp + 0.017*fresh + 0.016*fish
+topic 14 : 0.025*food + 0.023*place + 0.020*good + 0.018*go + 0.016*vega + 0.014*time + 0.012*would + 0.012*tri + 0.011*star + 0.011*one
+topic 15 : 0.055*drink + 0.046*beer + 0.033*wine + 0.021*bottl + 0.021*glass + 0.019*menu + 0.015*shake + 0.015*cocktail + 0.014*luxuri + 0.014*select
+topic 16 : 0.046*vega + 0.046*hotel + 0.039*stay + 0.023*strip + 0.022*xs + 0.021*casino + 0.012*walk + 0.011*night + 0.010*locat + 0.010*time
+topic 17 : 0.131*room + 0.034*hotel + 0.030*suit + 0.023*view + 0.021*floor + 0.020*stay + 0.017*desk + 0.013*park + 0.012*valet + 0.012*front
+topic 18 : 0.178*buffet + 0.026*select + 0.023*breakfast + 0.023*gelato + 0.020*food + 0.018*station + 0.016*lunch + 0.015*line + 0.013*varieti + 0.013*dinner
+topic 19 : 0.066*pool + 0.032*bed + 0.032*room + 0.030*bathroom + 0.028*clean + 0.028*nice + 0.016*tv + 0.012*hotel + 0.012*area + 0.011*comfort

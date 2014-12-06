@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+#pieChart {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:960px;
+    height: 800px;
+}
+
+
+#table {
+    position:absolute;
+    top:10px;
+    left:810px;
+    height: 800px;
+}
+
+text {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+}
+
+.slice {
+   font-size: 12pt;
+   font-family: Verdana;
+   fill: white; //svg specific - instead of color
+   font-weight: bold;
+        }
+
+
+</style>
+<body>
+    <div id="pieChart"></div>
+    <div id="table"></div>
+<script src="d3/d3.v3.min.js"></script>
+<script src="d3/d3.layout.cloud.js"></script>
+<script src="https://raw.githubusercontent.com/novus/nvd3/master/nv.d3.js"></script>
+
+<script>
+
+var fontSize = d3.scale.log().range([20, 80]).domain([1,200]);
+var distribution;
+var colors = d3.scale.ordinal()
+        .range(['rgb(158,1,66)','rgb(213,62,79)','rgb(244,109,67)','rgb(253,174,97)','rgb(254,224,139)','#9e0142','rgb(171,221,164)','rgb(102,194,165)','rgb(50,136,189)','rgb(94,79,162)','rgb(158,1,66)','rgb(213,62,79)','rgb(244,109,67)','rgb(253,174,97)','rgb(254,224,139)','#9e0142','#9e0142','#9e0142','rgb(50,136,189)','rgb(94,79,162)']);
+
+
+var topicdata =[{"key":"Topic 1","values":
+[{"label":"this","value":10,"topic":1},{"lable":"this","value":10,"topic":2},{"label":"this","value":10,"topic":3}]}];
+
+
+function mouseclick(d){
+
+      d3.select(this)
+            .transition().duration(150)
+            .style("opacity",0.5 );
+   }
+
+d3.csv("dist.csv", function(error, data) {
+  distribution = data;
+});
+
+d3.csv("wordcount.csv", function(error, review_data) {
+
+
+    var     width = 930,
+           height = 930,
+           outerRadius = Math.min(width, height) / 2,
+           innerRadius = outerRadius * .8,
+           // for animation
+           innerRadiusFinal = outerRadius * .7,
+           innerRadiusFinal3 = outerRadius* .45;
+
+var svg = d3.select("#pieChart").append("svg:svg")
+        .data(distribution)
+        .attr("width", width)
+        .attr("height", height)
+        .append("svg:g")
+        .attr("transform", "translate(" + outerRadius + "," + outerRadius + ")");
+
+var arc = d3.svg.arc()
+            .outerRadius(outerRadius).innerRadius(innerRadius);
+   var arcFinal = d3.svg.arc().innerRadius(innerRadiusFinal).outerRadius(outerRadius);
+    var arcFinal3 = d3.svg.arc().innerRadius(innerRadiusFinal3).outerRadius(outerRadius);
+
+var pie = d3.layout.pie()
+        .value(function(d) { return d.pct; });    //we must tell it out to access the value of each element in our data array
+
+var archs =svg.selectAll("g.slice")
+          .data(pie(distribution))
+          .enter().append("svg:g")
+          .attr("class", "slice")
+          .on("click",function(d){
+                d3.select("#cloud").remove();
+                cloud(review_data,d.data.topic).start();
+          });
+
+var arch = archs
+        .append("svg:path")
+            .attr('d',arc )
+            .attr("fill", function(d){return colors(d.data.topic);})
+            .attr("opacity",1);
+
+        function angle(d) {
+            var a = (d.startAngle + d.endAngle) * 90 / Math.PI ;
+            return a > 90 ? a - 180 : a;
+        }
+
+     archs.filter(function(d) { return d.endAngle - d.startAngle > .2; })
+            .append("svg:text")
+          .attr("dy", ".35em")
+          .attr("text-anchor", "middle")
+          .attr("transform", function(d) { return "translate(" + arcFinal.centroid(d) + ")rotate(" + angle(d) + ")"; })
+         .text(function(d) { return d.data.label; })
+          ;
+
+cloud(review_data,0).start();
+});
+
+function make_table(topic){
+    var svg = d3.select("#table").append("svg:svg")
+        .data(topicdata)
+        .attr("width", 500)
+        .attr("height", 800)
+        .append("svg:g")
+        ;
+    svg.append("text").text("hahahaha");
+
+      nv.addGraph(function() {
+    var chart = nv.models.multiBarHorizontalChart()
+        .x(function(d) { return d.label })
+        .y(function(d) { return d.value })
+        .margin({top: 10, right: 10, bottom: 500, left: 100})
+        .showValues(true)           //Show bar value next to each bar.
+        .tooltips(false)             //Show tooltips on hover.
+        .transitionDuration(350)
+        .showControls(false);        //Allow user to switch between "Grouped" and "Stacked" mode.
+
+    chart.yAxis
+        .tickFormat(d3.format(',.2f'));
+
+    //d3.select('#table').selectAll('svg')
+        //.datum(topicdata)
+       // .call(chart);
+
+    //nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+}
+
+make_table();
+
+function cloud(data,topic){
+    var all_cloud = d3.layout.cloud().size([600, 600])
+        .words(data)
+        .padding(1)
+        .rotate(function() { return ~~(Math.random() * 2) * 90; })
+        .font("serif")
+        .fontSize(function(d) { return fontSize(d.count); })
+        .on("end", draw);
+
+    var cloud = d3.layout.cloud().size([600, 600])
+    .words(data.filter(function(d) {
+    return d.topic==topic; }))
+        .padding(1)
+        .rotate(function() { return ~~(Math.random() * 2) * 90; })
+        .font("serif")
+        .fontSize(function(d) { return fontSize(d.count); })
+        .on("end", draw);
+    if (topic==0) return all_cloud;
+    return cloud;
+}
+
+function draw(words) {
+
+        d3.select("#pieChart").selectAll("svg")
+            .append("g")
+                 .attr("transform", "translate(450,450)")
+                 .attr("id","cloud")
+                .selectAll("text")
+                .data(words)
+            .enter().append("text")
+            .style("font-size", function(d) { return ((d.size)* 1) + "px"; })
+            .style("font-family", "serif")
+            .style("fill", function(d, i) {return colors(d.topic); })
+            .style("opacity", 1e-6)
+            .attr("text-anchor", "middle")
+            .attr("transform", function(d) { return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")"; })
+            .transition()
+            .duration(1000)
+            .style("opacity", 1)
+            .text(function(d) { return d.text; });
+    }
+
+</script>
